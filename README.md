@@ -1,1 +1,4 @@
-# chatbot-eliza
+# ELIZA
+
+Personal Chatbot
+

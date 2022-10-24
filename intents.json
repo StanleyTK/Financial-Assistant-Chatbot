@@ -1,0 +1,124 @@
+{"intents":  [
+  {
+    "tag": "greetings",
+    "patterns": [
+      "hello",
+      "hey",
+      "hi",
+      "good day",
+      "greetings",
+      "what's up?",
+      "how is it going?"
+    ],
+    "responses": [
+      "Hello!",
+      "Hey!",
+      "What can I do for you?"
+    ]
+  },
+
+  {
+    "tag": "goodbye",
+    "patterns": [
+      "cya",
+      "See you later",
+      "goodbye",
+      "have a good day",
+      "i am leaving"
+    ],
+    "responses": [
+      "Goodbye!",
+      "Talk to you later!",
+      "Have a good rest of your day!"
+    ]
+  },
+   {
+    "tag": "insult",
+    "patterns": [
+      "Fuck you",
+      "I hate you so much",
+      "You suck",
+      "Gosh what are you doing?",
+      "you are really trash",
+      "you stupid?",
+      "you are a bitch"
+    ],
+    "responses": [
+      "I'm doing my best... sorry!",
+      "I'm sorry. Is there anything else I can do for you?",
+      "I apologize, I'm sorry"
+    ]
+  },
+  {
+    "tag": "name",
+    "patterns": [
+      "what is your name?",
+      "what should i call you?",
+      "who are you?",
+      "can you tell me your name?"
+    ],
+    "responses": [
+      "My name is ELIZA!",
+      "I'm ELIZA!",
+      "I'm ELIZA, the chatbot!"
+    ]
+  },
+   {
+    "tag": "gainers",
+    "patterns": [
+      "I want to see the top gainers today",
+      "Who are the top gainers today in stocks",
+      "Who had the highest percentage in percentage in stocks",
+      "What are the top gainers today"
+    ],
+    "responses": [
+      "Showing the top gainers:"
+    ]
+  },
+  {
+    "tag": "losers",
+    "patterns": [
+      "I want to see the top losers today",
+      "Who are the top losers today in stocks",
+      "Who had the lowest percentage in percentage in stocks",
+      "What are the top losers today"
+    ],
+    "responses": [
+      "Showing the top losers:"
+    ]
+  },
+  {
+    "tag": "predict",
+    "patterns": [
+      "I want to predict the stock price next day",
+      "What is the stock price going to be tomorrow",
+      "I need a prediction for a stock"
+    ],
+    "responses": [
+      "Showing the prediction:"
+    ]
+  },
+  {
+    "tag": "search",
+    "patterns": [
+      "I want to see a stock price right now",
+      "What is the stock price right now",
+      "I need to see the stock price of this"
+    ],
+    "responses": [
+      "Ok:"
+    ]
+  },
+  {
+    "tag": "stockgraph",
+    "patterns": [
+      "i need to see a stock graph?",
+      "i want to see a stock graph",
+      "can i see a stock graph?"
+    ],
+    "responses": [
+      "Ok...importing StockGraph.py..."
+    ]
+  }
+]}
+
