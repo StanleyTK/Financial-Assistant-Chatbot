@@ -1,6 +1,6 @@
 # Financial Assistant Chatbot
 
-## Edit project still under construction, not final
+Edit: Project is functional, but is still under construction.
 
 Hello! I built this application because I was fascinated by natural processing and neural networks, and I wanted an opportunity to use them myself, in a form of a chatbot. This project is a major expansion of the "Hello World Hackathon" hosted by Purdue University. The project done in the Hackathon was a beginner-friendly stock market website with essential information, such as stock analysis, top stock gainers and losers by percentage (Done with the React framework). However, my financial assistant chatbot with be done using the Python GUI, with a lot more functionalities, such as predicting the stock prices and graphing the data of the stock prices over period of time.
 
